@@ -1,0 +1,158 @@
+[
+  {
+    "description": "1. User launches the web analyzer website\n2. User validates the web page elements and the title\n3. User enters the input url in the text box which needs analysis\n4. User clicks on the Start button\n5. User waits for the results to be displayed\n6. User validates the results",
+    "keyword": "Feature",
+    "name": "Web Site Analyzer",
+    "line": 1,
+    "id": "web-site-analyzer",
+    "tags": [],
+    "uri": "Features\\WebSiteAnalyzer.feature",
+    "elements": [
+      {
+        "id": "web-site-analyzer;user-validates-the-launched-url-and-its-elements",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User validates the launched url and its elements",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User launches the website analyzer url",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4653
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the page should display the text field and button",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user validates the page title",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Analyzer\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "web-site-analyzer;user-enter-the-search-url-and-validates-the-results",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User enter the search URL and validates the results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "User launches the website analyzer url",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2138
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User enters the input url in the text box",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User clicks on Start button",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "User waits for the results to be displayed",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20004
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User validates the results",
+            "match": {
+              "location": "StepDef\\stepDefinitions.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7029
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Analyzer\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
